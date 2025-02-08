@@ -46,34 +46,13 @@ Images Directory: /kaggle/input/data-set/myntradataset/images
 
 Data File: /kaggle/input/data-set/myntradataset/styles.csv
 
-The dataset consists of images of fashion products along with metadata, including color, type, season, and gender labels.
-
-🔧 Installation & Setup
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/yourusername/fashion-product-classification.git
-cd fashion-product-classification
-
-2️⃣ Install Dependencies
-
-pip install -r requirements.txt
-
-3️⃣ Download Dataset
-
-If using Kaggle:
-
-kaggle datasets download -d dataset-name
-
-Alternatively, manually download and place it in the dataset/ directory.
+The dataset consists of images of fashion products along with metadata, including color, type, season, and gender .
 
 **📖 Training the Model**
 
-To train the model from scratch, run the Jupyter Notebook:
+To train the model from scratch, run the Notebook:
 
-jupyter notebook notebooks/fashion_classification.ipynb
-
-Make sure to enable GPU acceleration if using Kaggle or Colab.
+Make sure to enable GPU acceleration if using Kaggle.
 
 The trained model will be saved as fashion_model.pth.
 
